@@ -12,7 +12,7 @@ The first step of the experiment is to train the adapters on a subgraph of Conce
 
 ### Evaluation
 
-In order to evaluate the adapter-injected models on the LAMA probe, specify a path to the injected model in run_lama_probe.sh and set the ```--use\_adapter ``` flag. You can specify what predicate types you want to limit the probe to.
+In order to evaluate the adapter-injected models on the LAMA probe, specify a path to the injected model in run_lama_probe.sh and set the ```--use_adapter ``` flag. You can specify what predicate types you want to limit the probe to.
 
 ### Requirements
 
