@@ -1,4 +1,3 @@
-The data files must be downloaded and generated according to the process specified at the repository for the Retrograph study, which can be found [here](https://github.com/Wluper/Retrograph).
-You want all the ConceptNet relation files on the format: relations/cn\_relationType*.txt
+The source data files can either be extracted from the provided zip archive or be downloaded and generated according to the process specified at the repository for the Retrograph study, which can be found [here](https://github.com/Wluper/Retrograph). You want all the ConceptNet relation files on the format: relations/cn\_relationType*.txt, then you can run the process pipeline with the predicate types you want.
 
-In their README, you want to follow step 1, 2 and 3. 
+The provided zip archive has the two training corpuses used to generate the results presented in the paper. The file corpus.txt (and corpus_val.txt if you want to measure perplexity during adapter training) is a random walk containing the same predicates as the Retrograph study, while the file lama_corpus_train is the training file refered to as "our predicate set" in the paper. 
