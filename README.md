@@ -1,6 +1,6 @@
 # Adapter Injection and MLM
 
-Code and data associated with the paper "The Effectiveness of Masked Language Modeling and Adapters for Factual Knowledge Injection"
+Code and data associated with the paper [The Effectiveness of Masked Language Modeling and Adapters for Factual Knowledge Injection](https://arxiv.org/abs/2210.00907), for TextGraphs-16 at COLING2022. 
 
 ### Data processing
 
